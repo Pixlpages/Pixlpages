@@ -169,3 +169,26 @@ body {
     opacity: 0.7;
 }
 
+
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: var(--dark);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cv-button:hover {
+    background: #1f2224;
+    transform: translateY(-3px);
+}
+
+
+
