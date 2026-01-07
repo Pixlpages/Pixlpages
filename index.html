@@ -1,39 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Your Name | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f4f4f4;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-    }
-    h1 { color: #333; }
-    a { color: #0066cc; text-decoration: none; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Your Name</h1>
-    <p>Computer Science Student | Developer</p>
 
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/Pixlpages/Dungeon_Survivors.git">Project 1</a></li>
-      <li><a href="https://github.com/Pixlpages/SE_SourceCode.git">Project 2</a></li>
-    </ul>
+    <!-- HERO / ABOUT -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="profile" class="profile-img">
 
-    <h2>Contact</h2>
-    <p>Email: youremail@example.com</p>
-  </div>
+            <h1>Hi, I'm <span class="highlight">Jobell Rome Pagelazon</span>.</h1>
+            <h2>Computer Science Student & Game Developer</h2>
+
+            <p>
+                I create games with <strong>Unity (C#)</strong> and
+                developing responsive websites with <strong>HTML</strong> and <strong>CSS</strong>.
+            </p>
+        </div>
+    </header>
+
+    <!-- PROJECTS -->
+    <section class="projects-container">
+
+        <div class="project-card">
+            <img src="title.png" alt="title" class="card-image">
+
+            <div class="card-content">
+                <h3>Dungeon Survivors</h3>
+
+                <div class="tags-container">
+                    <span class="tech-tag">Unity</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">MARL</span>
+                    <span class="tech-tag">MDP</span>
+                </div>
+
+                <p>
+                    A roguelike survival game that explores adaptive difficulty using
+                    Multi-Agent Reinforcement Learning and Markov Decision Processes.
+                </p>
+
+                <div class="links-container">
+                    <a href="https://drive.google.com/drive/folders/1akno1Lch8nZ6b7lUx4ng8AVzl6vfZzIe?usp=sharing" class="project-link">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                    <a href="#" class="project-link play-link">
+                        🎮 Play
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumbnail">
+                <span class="thumbnail-text">MV88</span>
+            </div>
+
+            <div class="card-content">
+                <h3>MV88 Ventures System</h3>
+
+                <div class="tags-container">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+
+                <p>
+                    A lightweight inventory and sales tracking system designed for a
+                    small business selling pet accessories.
+                </p>
+
+                <div class="links-container">
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="contact-footer">
+        <h2>Let's Connect</h2>
+        <p>I am currently open to internships and opportunities.</p>
+
+        <div class="contact-links">
+            <a href="mailto:jobell.rome@gmail.com" class="contact-item">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="mailto:jobellrome.pagelazon.cics@ust.edu.ph" class="contact-item" target="_blank">
+                <i class="fab fa-university"></i>
+            </a>
+            <a href="tel:+639173060621" class="contact-item">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+
+        <p class="copyright">
+            © 2024 Jobell Pagelazon · Built with HTML & CSS
+        </p>
+    </footer>
+
 </body>
 </html>
